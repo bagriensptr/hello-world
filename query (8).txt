@@ -1,0 +1,112 @@
+group:Database Warteg Q Bahagia Q
+
+Person = {
+	nama:string, umur:number, gender:string
+	'Ayu'      , 16        , 'female'     
+	'Bima'      , 21        , 'male'       
+	'Widya'      , 33        , 'female'       
+	'Wahyu'      , 13        , 'male'       
+	'Nur'      , 45        , 'female'       
+	'Prabu'      , 21        , 'male'     
+	'Anton'      , 24        , 'male'       
+	'Saipul'      , 30        , 'male'     
+	'Jamil'      , 18        , 'male'   
+	'Vanesa'      , 31        , 'female'     
+	'Angel'      , 19        , 'female'
+}
+
+Tempat = {
+	nama:string, warteg:string 
+	'Ayu'      , 'Tombo Luwe'     
+	'Bima'      , 'J One'     
+	'Bima'      , 'Depot 56' 
+	'Widya'      , 'Deles'     
+	'Widya'      , 'J One'
+	'Wahyu'      , 'Deles'     
+	'Wahyu'      , 'Tombo Luwe'
+	'Nur'      , 'J One'     
+	'Nur'      , 'Tombo Luwe' 
+	'Prabu'      , 'J One'       
+	'Prabu'      , 'Warung Sederhana'
+	'Anton'      , 'Deles' 
+	'Anton'      , 'Depot 56'     
+	'Saipul'      , 'Depot 56'       
+	'Saipul'      , 'Warung Sederhana'     
+	'Saipul'      , 'Tombo Luwe'     
+	'Jamil'      , 'Warung Sederhana'
+	'Vanesa'      , 'J One'     
+	'Angel'      , 'Depot 56'       
+}
+
+PelangganTetap = {
+	nama:string, warteg:string, lauk:string
+	'Ayu'      , 'Tombo Luwe'  , 'ikan'   
+
+	'Bima'      , 'Depot 56' , 'tempe'
+	'Widya'      , 'Deles'     , 'telur balado'
+
+	'Nur'      , 'Tombo Luwe' , 'ayam'
+
+}
+TempatSatunya = {
+	nama:string, umur:number, gender:string
+	'Ayu'      , 16        , 'female'     
+	'Dino'      , 24        , 'male'       
+	'Deka'      , 30        , 'male'     
+	'Jun'      , 18        , 'male'   
+	'Vanesa'      , 31        , 'female'     
+	'Angel'      , 19        , 'female'
+}
+
+Makan = {
+	nama:string, lauk:string
+	'Ayu'      , 'ikan' 
+	'Ayu'      , 'ayam'  
+	'Bima'      , 'tempe' 
+	'Bima'      , 'ikan'    
+	'Widya'      , 'telur balado'   
+	'Wahyu'      , 'ikan' 
+	'Wahyu'      , 'tempe'    
+	'Nur'      , 'ayam'   
+	'Nur'      , 'telur balado'   
+	'Prabu'      , 'tempe'  
+	'Prabu'      , 'ikan'   
+	'Anton'      , 'tempe'    
+	'Anton'      , 'ayam'  
+	'Saipul'      , 'ikan'  
+	'Jamil'      , 'telur balado'   
+	'Jamil'      , 'tempe'    
+	'Vanesa'      , 'ikan'   
+	'Vanesa'      , 'ayam'    
+	'Angel'      , 'ikan'   
+	'Angel'      , 'tempe' 
+}
+
+Menu = {
+	warteg:string , lauk:string, harga:number
+	'Tombo Luwe'     , 'ikan' , 12          
+	'Tombo Luwe'     , 'ayam'   , 12          
+	'Tombo Luwe'     , 'tempe'    , 9           
+	'Tombo Luwe'     , 'telur balado'   , 12          
+	'Deles', 'ikan' , 9.75        
+	'Deles', 'ayam'   , 9.5         
+	'Deles', 'tempe'    , 7           
+	'Deles', 'telur balado'  , 9.25        
+	'Depot 56'       , 'ikan'    , 9.75        
+	'Depot 56'       , 'ayam'  , 11 
+	'Depot 56'       , 'tempe'   , 9.75   
+	'Depot 56'       , 'telur balado'   , 9.75
+	'Deles'     , 'ikan' , 8           
+	'Deles'     , 'ayam'    , 9.25        
+	'Deles'     , 'tempe'   , 9.75   
+	'Deles'     , 'telur balado'   , 9.75  
+	'Warung Sederhana', 'ikan' , 8           
+	'Warung Sederhana', 'ayam'    , 7           
+	'Warung Sederhana', 'tempe'   , 8.5 
+		'Warung Sederhana'     , 'telur balado'   , 9.75   
+	'J One'     , 'ikan'   , 9.75
+	'J One' , 'ayam'    , 7.75        
+	'J One' , 'tempe'   , 8.5      
+	'J One' , 'telur balado'   , 8.5 
+}
+
